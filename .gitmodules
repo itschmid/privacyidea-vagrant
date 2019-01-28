@@ -1,0 +1,9 @@
+[submodule "roles/itschmid.apache_wsgi"]
+	path = roles/itschmid.apache_wsgi
+	url = git@github.com:itschmid/ansible-apache_wsgi.git
+[submodule "roles/itschmid.mariadb"]
+	path = roles/itschmid.mariadb
+	url = git@github.com:itschmid/ansible-mariadb.git
+[submodule "roles/itschmid.privacyidea"]
+	path = roles/itschmid.privacyidea
+	url = git@github.com:itschmid/ansible-privacyidea.git
