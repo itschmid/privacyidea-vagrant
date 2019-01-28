@@ -1,0 +1,10 @@
+*.pyc
+*.idea
+.idea/
+dist/
+*.tar.gz
+*.ldif
+*.crt
+*.pem
+localsettings.yml
+.vagrant/

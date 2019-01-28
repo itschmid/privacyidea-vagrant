@@ -1,0 +1,15 @@
+---
+- hosts: all
+  gather_facts: True
+
+  roles:
+    - role: itschmid.apache_wsgi
+      tags: install
+    - role: itschmid.mariadb
+      tags: install
+    - itschmid.privacyidea
+
+
+  vars:
+    mariadb: privacyidea
+    #PI_PACKAGE_VERSION: "v2.23.3"
